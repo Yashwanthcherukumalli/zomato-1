@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomoto</title>
+    <link rel="icon" href="./images/icon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="d-flex justify-content-around align-items-center pb-4 mb-2">
+        <div class="login-search d-flex justify-content-around align-items-center">
+            <div class="logo w-5"><img class="logo-img"
+                    src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png">
+            </div>
+            <div class="search-bar d-flex justify-content-around align-items-center">
+                <div class="location-bar ">
+                    <i class="fa-solid fa-location-dot cl-l-red"></i>
+                    <select class="search-bar-select br-none cl-gray">
+                        <option>hyd</option>
+                        <option>kh</option>
+                    </select>
+                </div>
+                <div class="search-icon-input cl-l-gray">
+                    <i class="fa-solid fa-magnifying-glass cl-gray"></i>
+                    <input class="search-bar-input br-none" type="search"
+                        placeholder="Search for restaurant, cuisine or a dish">
+
+                </div>
+            </div>
+            <div class="user d-flex justify-content-around align-items-center">
+                <button class="btn fs-5 text-secondary">Log in</button>
+                <button class="btn fs-5 text-secondary">Sign up</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="nav-bar d-flex justify-content-around align-items-center">
+                <div class="nav-bar-options d-flex align-items-center ps-5">
+                    <button class="btn fs-5 d-flex align-items-center" id="btn-1">
+                        <img class="img-ht-wd" src="./images/din.avif" alt="">
+                        Dining Out
+                    </button>
+                    <button class="btn fs-5 d-flex align-items-center" id="btn-2">
+                        <img class="img-ht-wd" src="./images/del.jpeg" alt="">
+                        Delivery
+                    </button>
+                    <button class="btn fs-5 d-flex align-items-center" id="btn-3">
+                        <img class="img-ht-wd" src="./images/nig.jpeg" alt="">
+                        Night life
+                    </button>
+                </div>
+            </div>
+            <div class="Filter d-flex justify-content-center align-items-center my-4">
+                <div class="Btn-container d-flex">
+                    <button class="Btn-Filter">
+                        <i class="fa-solid fa-arrow-down-wide-short"></i>
+                        Filter
+                    </button>
+                    <button class="Btn-Filter">
+                        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        Delivery Time
+                    </button>
+                    <button class="Btn-Filter">
+                        Rating:4.0+
+                    </button>
+                    <button class="Btn-Filter">
+                        Pure veg
+                    </button>
+                    <button class="Btn-Filter">
+                        cuisines
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                </div>
+
+            </div>
+            <div class="div-card-container d-flex justify-content-center align-items-center">
+                <div class="card-container">
+                    <div class="card-text mx-5 px-3">
+                        <h2>Inspiration for your first order</h2>
+                    </div>
+                    <div class="cards-container-box d-flex my-4">
+                        <div
+                            class="card bg-body-tertiary w-25 m-1 d-flex justify-content-center align-items-center border-0">
+                            <img class="w-50 rounded-circle" src="./images/biryani.jpeg" alt="">
+                            Biryani
+                        </div>
+                        <div
+                            class="card bg-body-tertiary w-25 m-1 d-flex justify-content-center align-items-center border-0">
+                            <img class="w-50 rounded-circle" src="./images/Dosa.png" alt="">
+                            Dosa
+                        </div>
+                        <div
+                            class="card bg-body-tertiary w-25 m-1 d-flex justify-content-center align-items-center border-0">
+                            <img class="w-50 rounded-circle" src="./images/idli.png" alt="">
+                            idli
+                        </div>
+                        <div
+                            class="card bg-body-tertiary w-25 m-1 d-flex justify-content-center align-items-center border-0">
+                            <img class="w-50 rounded-circle" src="./images/Burger.png" alt="">
+                            Burger
+                        </div>
+                        <div
+                            class="card bg-body-tertiary w-25 m-1 d-flex justify-content-center align-items-center border-0">
+                            <img class="w-50 rounded-circle" src="./images/chicken.png" alt="">
+                            chicken
+                        </div>
+                        <div
+                            class="card bg-body-tertiary w-25 m-1 d-flex justify-content-center align-items-center border-0">
+                            <img class="w-50 rounded-circle" src="./images/Pizza.png" alt="">
+                            pizza
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="div-card-container d-flex justify-content-center align-items-center">
+                <div class="card-container">
+                    <div class="card-text mx-5 px-3">
+                        <h2>Top brands for you</h2>
+                    </div>
+                    <div class="cards-container-box d-flex">
+                        <div
+                            class="card bg-body-tertiary w-50 m-1 d-flex justify-content-center align-items-center border-0">
+                            <img class="w-50 rounded-circle" src="./images/mehfil.avif" alt="">
+                            MEHFIL
+                        </div>
+                        <div
+                            class="card bg-body-tertiary w-50 m-1 d-flex justify-content-center align-items-center border-0">
+                            <img class="w-50 rounded-circle" src="./images/shah.avif" alt="">
+                            SHAH GHOUSE
+                        </div>
+                        <div
+                            class="card bg-body-tertiary w-50 m-1 d-flex justify-content-center align-items-center border-0">
+                            <img class="w-50 rounded-circle" src="./images/pista.avif" alt="">
+                            PISTA HOUSE
+                        </div>
+                        <div
+                            class="card bg-body-tertiary w-50 m-1 d-flex justify-content-center align-items-center border-0">
+                            <img class="w-50 rounded-circle" src="./images/paradise.avif" alt="">
+                            PARADISE
+                        </div>
+                        <div
+                            class="card bg-body-tertiary w-50 m-1 d-flex justify-content-center align-items-center border-0">
+                            <img class="w-50 rounded-circle" src="./images/creamstone.avif" alt="">
+                            CREAM STONE
+                        </div>
+                        <div
+                            class="card bg-body-tertiary w-50 m-1 d-flex justify-content-center align-items-center border-0">
+                            <img class="w-50 rounded-circle" src="./images/kfc.avif" alt="">
+                            KFC
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="delivery ">
+                <div class="cards-boxs d-flex justify-content-center align-items-center">
+                    <div class="card h-w-100 m-3 p-2 rounded-4 d-flex justify-content-around align-items-center">
+                        <div class="bg-theme m-2">
+                            <div class="bg-hotel"></div>
+                        </div>
+                        <div class="card-text">
+                            <h3>AI Akbar Fast Food Corner</h3>
+                            <p class="cl-gray">Chinese, Beverages</p>
+                        </div>
+                    </div>
+                    <div class="card h-w-100 m-3 p-2 rounded-4 d-flex justify-content-around align-items-center">
+                        <div class="bg-theme m-2">
+                            <div class="bg-hotel"></div>
+                        </div>
+                        <div class="card-text">
+                            <h3>AI Akbar Fast Food Corner</h3>
+                            <p class="cl-gray">Chinese, Beverages</p>
+                        </div>
+                    </div>
+                    <div class="card h-w-100 m-3 p-2 rounded-4 d-flex justify-content-around align-items-center">
+                        <div class="bg-theme m-2">
+                            <div class="bg-hotel"></div>
+                        </div>
+                        <div class="card-text">
+                            <h3>AI Akbar Fast Food Corner</h3>
+                            <p class="cl-gray">Chinese, Beverages</p>
+                        </div>
+                    </div>
+                    <div class="card h-w-100 m-3 p-2 rounded-4 d-flex justify-content-around align-items-center">
+                        <div class="bg-theme m-2">
+                            <div class="bg-hotel"></div>
+                        </div>
+                        <div class="card-text">
+                            <h3>AI Akbar Fast Food Corner</h3>
+                            <p class="cl-gray">Chinese, Beverages</p>
+                        </div>
+                    </div>
+                    <div class="card h-w-100 m-3 p-2 rounded-4 d-flex justify-content-around align-items-center">
+                        <div class="bg-theme m-2">
+                            <div class="bg-hotel"></div>
+                        </div>
+                        <div class="card-text">
+                            <h3>AI Akbar Fast Food Corner</h3>
+                            <p class="cl-gray">Chinese, Beverages</p>
+                        </div>
+                    </div>
+                    <div class="card h-w-100 m-3 p-2 rounded-4 d-flex justify-content-around align-items-center">
+                        <div class="bg-theme m-2">
+                            <div class="bg-hotel"></div>
+                        </div>
+                        <div class="card-text">
+                            <h3>AI Akbar Fast Food Corner</h3>
+                            <p class="cl-gray">Chinese, Beverages</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
